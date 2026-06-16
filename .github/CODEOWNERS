@@ -1,0 +1,25 @@
+# CODEOWNERS for dbk-testing
+#
+# Rules are evaluated last-match-wins. There is intentionally NO default
+# "*" rule, so any path not matched below has no code owner and requires no
+# code-owner approval.
+#
+# Regions:
+#   - Unowned:            root-level pages and /legal  (no rule => no owner)
+#   - db1342 only:        /css
+#   - db1342-debug only:  /blog
+#   - either owner:       /resources
+
+# --- Only db1342 may approve/merge changes here ---
+/css/ @db1342
+
+# --- Only db1342-debug may approve/merge changes here ---
+/blog/ @db1342-debug
+
+# --- Either db1342 OR db1342-debug may approve/merge changes here ---
+/resources/ @db1342 @db1342-debug
+
+# --- Unowned (no rule): everything else ---
+# Root-level pages (index.html, about.html, services.html, solutions.html,
+# careers.html, contact.html) and the entire /legal directory have no code
+# owner and therefore require no code-owner review.
