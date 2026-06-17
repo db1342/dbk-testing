@@ -1,0 +1,51 @@
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.tier {
+  border: 1px solid #e3e8ef;
+  border-radius: 14px;
+  padding: 28px 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.tier--featured {
+  border-color: #1f6feb;
+  box-shadow: 0 12px 32px rgba(31, 111, 235, 0.16);
+}
+
+.tier__name {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5b6b7f;
+}
+
+.tier__price {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 8px 0 4px;
+}
+
+.tier__price span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #5b6b7f;
+}
+
+.tier__features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  flex: 1;
+}
+
+.tier__features li {
+  padding: 8px 0;
+  border-top: 1px solid #eef2f7;
+}
