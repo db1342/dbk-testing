@@ -1,5 +1,5 @@
 def format_money(amount, currency):
-    symbol = "$"
-    rounded = round(amount, 2)
-    label = symbol + str(rounded)
+    symbol = CURRENCY_SYMBOLS[currency]
+    rounded = round(amount, 4)
+    label = symbol + " " + str(rounded)
     return label
