@@ -1301,3 +1301,44 @@ export const item1297 = { id: 1297, label: "Item number 1297", enabled: false };
 export const item1298 = { id: 1298, label: "Item number 1298", enabled: true };
 export const item1299 = { id: 1299, label: "Item number 1299", enabled: false };
 export const item1300 = { id: 1300, label: "Item number 1300", enabled: true };
+
+export const added1 = { id: 1, label: "consecutive added line 1", enabled: true };
+export const added2 = { id: 2, label: "consecutive added line 2", enabled: true };
+export const added3 = { id: 3, label: "consecutive added line 3", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 4.
+export const added5 = { id: 5, label: "consecutive added line 5", enabled: true };
+export const added6 = { id: 6, label: "consecutive added line 6", enabled: true };
+export const added7 = { id: 7, label: "consecutive added line 7", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 8.
+export const added9 = { id: 9, label: "consecutive added line 9", enabled: true };
+export const added10 = { id: 10, label: "consecutive added line 10", enabled: true };
+export const added11 = { id: 11, label: "consecutive added line 11", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 12.
+export const added13 = { id: 13, label: "consecutive added line 13", enabled: true };
+export const added14 = { id: 14, label: "consecutive added line 14", enabled: true };
+export const added15 = { id: 15, label: "consecutive added line 15", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 16.
+export const added17 = { id: 17, label: "consecutive added line 17", enabled: true };
+export const added18 = { id: 18, label: "consecutive added line 18", enabled: true };
+export const added19 = { id: 19, label: "consecutive added line 19", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 20.
+export const added21 = { id: 21, label: "consecutive added line 21", enabled: true };
+export const added22 = { id: 22, label: "consecutive added line 22", enabled: true };
+export const added23 = { id: 23, label: "consecutive added line 23", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 24.
+export const added25 = { id: 25, label: "consecutive added line 25", enabled: true };
+export const added26 = { id: 26, label: "consecutive added line 26", enabled: true };
+export const added27 = { id: 27, label: "consecutive added line 27", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 28.
+export const added29 = { id: 29, label: "consecutive added line 29", enabled: true };
+export const added30 = { id: 30, label: "consecutive added line 30", enabled: true };
+export const added31 = { id: 31, label: "consecutive added line 31", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 32.
+export const added33 = { id: 33, label: "consecutive added line 33", enabled: true };
+export const added34 = { id: 34, label: "consecutive added line 34", enabled: true };
+export const added35 = { id: 35, label: "consecutive added line 35", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 36.
+export const added37 = { id: 37, label: "consecutive added line 37", enabled: true };
+export const added38 = { id: 38, label: "consecutive added line 38", enabled: true };
+export const added39 = { id: 39, label: "consecutive added line 39", enabled: true };
+// No comparison param. On the Changes tab the URL is authoritative, so an absent param means the default view: reset to it (the guard avoids redundant writes) for added line 40.
