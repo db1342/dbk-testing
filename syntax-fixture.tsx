@@ -251,6 +251,27 @@ const Card: FC<CardProps> = ({ title, count = 0, onSelect }) => {
 };
 
 // ---------------------------------------------------------------------------
+// Solid filled square (■ U+25A0 BLACK SQUARE) in assorted syntactic slots:
+// literal in comment ■, string, template, escape, char code, and JSX text.
+// Progress bar: ■■■■■■□□□□
+// ---------------------------------------------------------------------------
+const squareLiteral = "■";
+const squareEscaped = "\u25a0";
+const squareCodePoint = "\u{25a0}";
+const filledBar = "■".repeat(6) + "□".repeat(4);
+const squareLabel = `status: ${squareLiteral} ok / ${"□"} pending`;
+const squareCharCode = String.fromCharCode(0x25a0);
+const ratingRow = ["■", "■", "■", "□", "□"] as const;
+
+const SquareLegend: FC = () => (
+  <ul aria-label="legend">
+    <li>■ done</li>
+    <li>{squareLiteral} active</li>
+    <li>{`progress ${filledBar}`}</li>
+  </ul>
+);
+
+// ---------------------------------------------------------------------------
 // Top-level assertions, satisfies, optional chaining, nullish coalescing.
 // ---------------------------------------------------------------------------
 const config = {
