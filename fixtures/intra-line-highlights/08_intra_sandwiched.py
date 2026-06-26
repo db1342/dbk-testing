@@ -7,8 +7,8 @@ range — plus unchanged lines immediately outside.
 
 def pipeline(items):
     total = 0
-    obsolete = 0
     for item in items:
         total += item
     average = total / max(len(items), 1)
-    return total, average
+    count = len(items)
+    return total, average, count

@@ -7,9 +7,6 @@ on the unchanged survivors around the hole.
 
 def connect(settings):
     client = Client(settings)
-    legacy_mode = settings.get("legacy", False)
-    legacy_buffer = settings.get("buffer", 1024)
-    legacy_path = settings.get("path", "/tmp")
     client.open()
     return client
 

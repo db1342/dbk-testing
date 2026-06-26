@@ -6,8 +6,8 @@ subtle. Comment on both lines.
 
 
 def spaced(a, b):
-    return a +  b
+    return a + b
 
 
 def indented():
-  return 1
+    return 1

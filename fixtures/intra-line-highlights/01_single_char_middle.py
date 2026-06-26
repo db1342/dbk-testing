@@ -9,7 +9,7 @@ immediately above/below to exercise proximity to unchanged rows):
 
 def configure(options):
     defaults = {"retries": 3, "timeout": 30}
-    retries = 3
+    retries = 5
     timeout = defaults["timeout"]
     merged = {**defaults, **options}
     return merged, retries, timeout

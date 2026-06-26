@@ -6,7 +6,7 @@ the middle unchanged line should not bleed highlights across blocks.
 
 
 def first_block(x):
-    value = x + 1
+    value = x + 2
     return value
 
 
@@ -15,5 +15,5 @@ def middle_unchanged(y):
 
 
 def second_block(z):
-    value = z - 1
+    value = z - 3
     return value

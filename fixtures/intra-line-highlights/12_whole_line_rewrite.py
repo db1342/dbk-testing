@@ -6,5 +6,5 @@ replace rather than independent pure add/delete when paired.
 
 
 def compute(n):
-    result = n * n
+    result = sum(range(n))
     return result

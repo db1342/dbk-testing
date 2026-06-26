@@ -5,5 +5,5 @@ Comment on the deleted side OR the added side (sidebar shows one line).
 
 
 def greet(name):
-    message = "Hello, " + name + "!"
+    message = "Welcome, " + name + "!"
     return message

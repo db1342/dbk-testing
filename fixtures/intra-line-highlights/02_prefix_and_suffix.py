@@ -5,8 +5,8 @@ Comment on either changed line; both should show partial (not full-line) highlig
 
 
 def build_url(host, port):
-    scheme = "http"
+    scheme = "https"
     prefix = scheme + "://" + "www."
-    path = "/v1/items"
+    path = "/v2/items"
     addr = prefix + host + ":" + str(port) + path
     return addr
