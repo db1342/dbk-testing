@@ -1,0 +1,7 @@
+line for commit 1
+line for commit 2
+line for commit 3
+line for commit 4
+line for commit 5
+line for commit 6
+line for commit 7
