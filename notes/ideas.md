@@ -1,16 +1,17 @@
-# Scratch Notes
+# Ideas
 
-Random working notes. Not polished.
+Slightly-less-random working notes.
 
 ## TODO
 
 - [x] Draft the API reference
-- [ ] Write the deployment guide
-- [ ] Add mermaid diagrams somewhere
+- [x] Write the deployment guide
+- [x] Add mermaid diagrams somewhere
+- [ ] Write a tuning cookbook
 
 ## Open questions
 
-- Should regions be a first-class concept or a tag?
+- Should regions be a first-class concept or a tag? *(leaning first-class)*
 - What is the right default batch size?
 
 ## Snippet dump

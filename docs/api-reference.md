@@ -49,23 +49,6 @@ Start a new pipeline run.
 
 Fetch the status of a run.
 
-## Legacy v0 endpoints
-
-> **Deprecated.** These endpoints are retained for backward compatibility and
-> will be removed in the next major version. Do not build new integrations on
-> them.
-
-### `GET /v0/list`
-
-Returns a flat, unpaginated list of every project. This endpoint has no
-authentication and leaks project names across tenants; migrate to
-`GET /projects` immediately.
-
-### `POST /v0/create`
-
-Creates a project using positional form fields instead of JSON. The field
-order is undocumented and has changed twice.
-
 ## Rate limits
 
 All endpoints are limited to 600 requests per minute per token. Exceeding the
