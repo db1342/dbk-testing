@@ -1,0 +1,2 @@
+TIP_LINE
+This line is introduced only by the tip commit (replaces PARENT_LINE).
