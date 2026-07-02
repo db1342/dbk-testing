@@ -1,0 +1,2 @@
+DELTA_MARK
+Unique content added only in the tip commit of this fixture PR.
