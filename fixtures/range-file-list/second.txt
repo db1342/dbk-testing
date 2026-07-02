@@ -1,0 +1,2 @@
+SECOND_ONLY
+This file is created and touched ONLY by commit 2.
