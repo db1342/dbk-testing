@@ -1,0 +1,2 @@
+FIRST_ONLY
+This file is created and touched ONLY by commit 1.
