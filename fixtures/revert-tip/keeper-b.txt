@@ -1,0 +1,2 @@
+KEEPER_B
+Added by commit 2 and never touched again; survives to the tip.
