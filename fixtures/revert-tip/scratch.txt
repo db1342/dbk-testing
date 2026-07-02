@@ -1,0 +1,2 @@
+SCRATCH
+Temporary file added by commit 3; will be removed by the tip commit's revert.
