@@ -1,0 +1,2 @@
+GAMMA_MARK
+Unique content added only in the third commit of this fixture PR.

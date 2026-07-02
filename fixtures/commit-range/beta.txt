@@ -1,0 +1,2 @@
+BETA_MARK
+Unique content added only in the second commit of this fixture PR.
