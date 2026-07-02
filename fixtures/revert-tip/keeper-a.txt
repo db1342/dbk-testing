@@ -1,0 +1,2 @@
+KEEPER_A
+Added by commit 1 and never touched again; survives to the tip.
