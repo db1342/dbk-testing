@@ -1,0 +1,2 @@
+FEATURE_MID
+Added in a second commit on V1 so commit-range can select a middle commit.
