@@ -1,0 +1,3 @@
+MAINLINE_ONLY
+Added only on the trunk after V1. Must not appear as a PR file in version-to-version
+compare (it is in both bases after restack).
