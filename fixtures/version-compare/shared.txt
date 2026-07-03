@@ -2,3 +2,7 @@ SHARED_BASE
 This line is on main at the branch point (M0).
 MAINLINE_EDIT
 Trunk advances shared.txt after V1 (conflicts with FEATURE_EDIT).
+FEATURE_EDIT
+PR version 1 adds this line to shared.txt.
+CONFLICT_RESOLUTION
+Author kept both sides after rebase conflict (V2).
