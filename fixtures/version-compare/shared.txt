@@ -1,0 +1,2 @@
+SHARED_BASE
+This line is on main at the branch point (M0).
